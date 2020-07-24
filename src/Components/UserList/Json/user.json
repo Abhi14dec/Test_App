@@ -1,0 +1,184 @@
+{
+	"ok": true,
+	"members": [{
+			"id": "W012A3CDE",
+			"real_name": "Egon Spengler",
+			"tz": "America/Los_Angeles",
+			"activity_periods": [{
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 12:00PM"
+				},
+				{
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA4",
+			"real_name": "Glinda Southgood",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+					"start_time": "Feb 2 2020  2:33PM",
+					"end_time": "Feb 2 2020 2:54PM"
+				},
+				{
+					"start_time": "Mar 2 2020  01:11AM",
+					"end_time": "Mar 2 2020 2:10PM"
+				},
+				{
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA5",
+			"real_name": "Sape Bies",
+			"tz": "America/Aruba",
+			"activity_periods": [{
+					"start_time": "Feb 2 2020  11:33PM",
+					"end_time": "Feb 2 2020 11:54PM"
+				},
+				{
+					"start_time": "Mar 4 2020  11:34AM",
+					"end_time": "Mar 4 2020 12:30PM"
+				},
+				{
+					"start_time": "Apr 5 2020  8:33PM",
+					"end_time": "Apr 5 2020 9:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA6",
+			"real_name": "Felix Wong",
+			"tz": "Australia/Hobart",
+			"activity_periods": [{
+					"start_time": "Mar 3 2020  01:33PM",
+					"end_time": "Mar 3 2020 2:54PM"
+				},
+				{
+					"start_time": "Apr 12 2020  2:11AM",
+					"end_time": "Apr 12 2020 3:00AM"
+				},
+				{
+					"start_time": "May 16 2020  6:33PM",
+					"end_time": "May 16 2020 7:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA7",
+			"real_name": "Ross Ellis",
+			"tz": "Pacific/Fiji",
+			"activity_periods": [{
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"start_time": "Mar 14 2020  11:11AM",
+					"end_time": "Mar 14 2020 2:00PM"
+				},
+				{
+					"start_time": "Jun 6 2020  3:33PM",
+					"end_time": "Jun  6 2020 4:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA8",
+			"real_name": "Jhonny Vervoort",
+			"tz": "Australia/Sydney",
+			"activity_periods": [{
+					"start_time": "May 4 2020  1:33PM",
+					"end_time": "May 4 2020 1:54PM"
+				},
+				{
+					"start_time": "Apr 4 2020  12:11PM",
+					"end_time": "Apr 4 2020 1:10PM"
+				},
+				{
+					"start_time": "Jun 8 2020  9:33PM",
+					"end_time": "Jun 8 2020 10:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA9",
+			"real_name": "Thorvald Granli",
+			"tz": "Asia/Baku",
+			"activity_periods": [{
+					"start_time": "Apr 5 2020  1:33PM",
+					"end_time": "Apr 5 2020 1:54PM"
+				},
+				{
+					"start_time": "Jun 1 2020  12:11PM",
+					"end_time": "Jun 1 2020 1:15PM"
+				},
+				{
+					"start_time": "July 7 2020  4:13PM",
+					"end_time": "July 7 2020 6:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPB4",
+			"real_name": "Marc Roman",
+			"tz": "Asia/Dhaka",
+			"activity_periods": [{
+					"start_time": "Jun 8 2020  12:33PM",
+					"end_time": "Jun 8 2020 1:54PM"
+				},
+				{
+					"start_time": "Jun 10 2020  1:11AM",
+					"end_time": "Jun 10 2020 2:10AM"
+				},
+				{
+					"start_time": "July 9 2020  9:33PM",
+					"end_time": "July 9 2020 10:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPB5",
+			"real_name": "Francisco Castro",
+			"tz": "Europe/Prague",
+			"activity_periods": [{
+					"start_time": "Feb 8 2020  1:33PM",
+					"end_time": "Feb 8 2020 1:54PM"
+				},
+				{
+					"start_time": "Mar 11 2020  1:11AM",
+					"end_time": "Mar 11 2020 3:09AM"
+				},
+				{
+					"start_time": "Jun 19 2020  5:33PM",
+					"end_time": "Jun 19 2020 6:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPB6",
+			"real_name": "Christian Myers",
+			"tz": "Africa/Cairo",
+			"activity_periods": [{
+					"start_time": "May 6 2020  1:56AM",
+					"end_time": "May 6 2020 2:54AM"
+				},
+				{
+					"start_time": "July 3 2020  11:18PM",
+					"end_time": "July 3 2020 12:09PM"
+				},
+				{
+					"start_time": "July 18 2020  5:33PM",
+					"end_time": "July 18 2020 8:22PM"
+				}
+			]
+		}
+	]
+}

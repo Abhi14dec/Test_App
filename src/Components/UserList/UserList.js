@@ -5,7 +5,7 @@ import members from './Json/user.json'
 function UserList() {
     const [userList, setUserList] = useState([]);
     const [activityPeriods, setActivityPeriods] = useState([])
-    
+
     useEffect(() => {
         if (members.ok === true) {
             setUserList(members.members)
@@ -15,7 +15,7 @@ function UserList() {
     const activeTime = (activity_periods) => {
         setActivityPeriods(activity_periods);
     }
-    
+
     return (
         <div className="container">
             <h3>User List</h3>
@@ -37,7 +37,7 @@ function UserList() {
                                     <th scope="row">{`${index + 1}.`}</th>
                                     <td>{user.real_name}</td>
                                     <td>{user.tz}</td>
-                                    <td><button type="button" className="btn btn-outline-info" onClick={activeTime.bind(this,user.activity_periods)} data-toggle="modal" data-target="#exampleModal">View</button></td>
+                                    <td><button type="button" className="btn btn-outline-info" onClick={activeTime.bind(this, user.activity_periods)} data-toggle="modal" data-target="#exampleModal">View</button></td>
                                 </tr>
                             )
                         })}
@@ -54,14 +54,26 @@ function UserList() {
                             </button>
                         </div>
                         <div className="modal-body">
-                                {activityPeriods.map((active,index)=>{
-                                    return (
-                                       <div>
-                                             <p>{`${index+1}. Start Time: ${active.start_time}`}</p>
-                                             <p>{`End Time: ${active.end_time}`}</p>
-                                       </div>
-                                    )
-                                })}
+                            <table className="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Sno.</th>
+                                        <th scope="col">Start Time</th>
+                                        <th scope="col">End Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {activityPeriods.map((active, index) => {
+                                        return (
+                                            <tr>
+                                                <td scope="row">{index + 1}</td>
+                                                <td>{active.start_time}</td>
+                                                <td>{active.end_time}</td>
+                                            </tr>
+                                        )
+                                    })}
+                                </tbody>
+                            </table>
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-outline-secondary" data-dismiss="modal">Close</button>
